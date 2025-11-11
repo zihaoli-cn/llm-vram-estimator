@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/vram-estimator/scripts/export-gpu-data.py", line 70, in <module>
+    export_gpu_data()
+  File "/home/ubuntu/vram-estimator/scripts/export-gpu-data.py", line 21, in export_gpu_data
+    for gpu_name in db.list():
+                    ^^^^^^^
+AttributeError: 'GPUDatabase' object has no attribute 'list'
